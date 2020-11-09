@@ -1,4 +1,4 @@
-package rjht;
+package rjht.day01;
 
 import java.util.Random;
 

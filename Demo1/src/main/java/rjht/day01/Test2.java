@@ -1,7 +1,4 @@
-package rjht;
-
-import javax.sound.midi.Soundbank;
-import java.lang.reflect.Method;
+package rjht.day01;
 
 /**
  * @Description 细节决定成败

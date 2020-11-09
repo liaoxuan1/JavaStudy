@@ -1,4 +1,4 @@
-package rjht;
+package rjht.day01;
 
 /**
  * @Description 细节决定成败
