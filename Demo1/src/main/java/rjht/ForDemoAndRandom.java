@@ -11,7 +11,7 @@ import java.util.Random;
  **/
 
 /*
-        需求:将不同的五个随机数放入数组中
+        需求:将不同的五个随机数放入数组中。。
  */
 public class ForDemoAndRandom {
     /*
