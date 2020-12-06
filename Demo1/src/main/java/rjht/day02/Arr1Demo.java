@@ -18,6 +18,7 @@ public class Arr1Demo {
         //需求:寻找数组中的最大值
         int[] arr = {7,3,5,9,10,2,11};
 
+
         int i = arr[0];
         for (int j = 0 ; j < arr.length; j ++){
             if (i < arr[j]){

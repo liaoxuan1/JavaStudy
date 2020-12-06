@@ -22,6 +22,11 @@ public class RandomAskNameDemo {
         Random random = new Random();
         int j = random.nextInt(name.length);
         System.out.println(name[j]);
+        System.out.println("=======");
+        int i = random.nextInt(33);
+        System.out.println(
+                i
+        );
 
     }
 }
