@@ -20,7 +20,7 @@ public class HdfsRead {
     public static void main(String[] args) throws IOException {
         //指定是HDFS文件系统
         Configuration conf = new Configuration();
-        conf.set("fs.defaultFS","node01:9000");
+        conf.set("fs.defaultFS","node01:8020");
 
         //通过FileSystem的静态方法来获取文件对象客户端
         FileSystem fileSystem = FileSystem.get(conf);
@@ -28,6 +28,12 @@ public class HdfsRead {
         //打开一个输入流，来读取数据
         FSDataInputStream in = fileSystem.open(new Path("/aaa.txt"));
 
-
+        String txt = null;
+        while ((txt=in.readLine()) != null){
+            System.out.println(txt);
+        }
+        in.close();
+        fileSystem.close();
+        System.out.println("读取成功");
     }
 }
